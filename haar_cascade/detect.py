@@ -5,12 +5,12 @@ import os
  
  
 # Read in the cascade classifiers
-eye_cascade = cv2.CascadeClassifier('data/cascade.xml')
+dilbert_cascade = cv2.CascadeClassifier('data/cascade.xml')
    
 def detect_dilbert(img):
      
     dilbert_img = img.copy()   
-    dilbert_rect = eye_cascade.detectMultiScale(dilbert_img,
+    dilbert_rect = dilbert_cascade.detectMultiScale(dilbert_img,
                                             scaleFactor = 1.2,
                                             minNeighbors = 5)   
     #print(dilbert_rect)
