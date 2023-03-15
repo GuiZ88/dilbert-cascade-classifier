@@ -15,7 +15,7 @@ def detect_dilbert(img):
                                             minNeighbors = 5)   
     #print(dilbert_rect)
     for (x, y, w, h) in dilbert_rect:
-        cv2.rectangle(dilbert_rect, (x, y),
+        cv2.rectangle(dilbert_img, (x, y),
                       (x + w, y + h), (0, 0, 255), 2)       
     return dilbert_img
  
