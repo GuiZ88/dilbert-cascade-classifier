@@ -38,7 +38,6 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 #configuration.gpu_options.allow_growth = True
 #session = tf.compat.v1.Session(config=configuration)
 
-#to_grayscale("positive_dilbert/", "positive_dilbert_grayscale/")
-
-#to_grayscale("negative_dilbert/", "negative_dilbert_grayscale/")
+to_grayscale("positive_dilbert/", "positive_dilbert_grayscale/")
+to_grayscale("negative_dilbert/", "negative_dilbert_grayscale/")
 create_negative_bg()
