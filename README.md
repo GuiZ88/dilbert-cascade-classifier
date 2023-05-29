@@ -50,5 +50,8 @@ The detect.py file tries to detect whether or not all cartoons in the undefined 
 
 <u><b>In this repositories there are only some sample images for each folder.</b></u>
 
-![Alt text](haar_cascade/detected_dilbert/2018-06-28_2.png?raw=true "Title")
+![Dilbert detected](haar_cascade/detected_dilbert/2018-06-28_2.png?raw=true "Dilbert detected")
+
+Next step detect Boss & Dilbert in the same panel! [dilbert-boss-cascade-classifier by GuiZ88](https://github.com/GuiZ88/dilbert-boss-cascade-classifier).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
